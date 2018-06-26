@@ -1,0 +1,14 @@
+server:
+##配置端口号
+  port: 8081
+  ##配置访问前缀
+ ## servlet:
+   ## context-path: /springboot
+    ##自定义属性
+person:
+  age: 22
+  name: 小胖
+  ##多环境配置，根据active的值读取相应的配置文件
+spring:
+  profiles:
+    active: dev
